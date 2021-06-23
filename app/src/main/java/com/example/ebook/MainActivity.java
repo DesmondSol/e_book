@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         pdfview.useBestQuality(true);
         pdfview.enableSwipe(true);
         pdfview.fitToWidth();
-        pdfview.fromAsset("kotlinbook.pdf").load();
+        pdfview.fromAsset("kotlinbook.pdf").load(); //. a demo pdf file was put in res folder
 
     }
 }
